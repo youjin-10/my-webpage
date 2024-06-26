@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 
 export default function ProfileHeader() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -45,15 +45,26 @@ export default function ProfileHeader() {
           </div>
           <div className="flex items-center transition-all duration-500 ease-in-out space-x-6">
             <a
-              href="https://www.google.com"
+              href="https://www.linkedin.com/in/yujin-lee-ab6a79167"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform hover:scale-110">
               <Linkedin size={20} />
             </a>
-            <button className="transition-transform hover:scale-110">
+            <a
+              href="https://github.com/youjin-10"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-transform hover:scale-110">
+              <Github size={20} />
+            </a>
+            {/* <button
+              className="transition-transform hover:scale-110"
+              onClick={() =>
+                (window.location.href = "mailto:yjlee1026@yahoo.com")
+              }>
               <Mail size={20} />
-            </button>
+            </button> */}
           </div>
         </div>
       </header>
