@@ -28,7 +28,7 @@ export default function ProfileHeader() {
               <Image
                 src="/my-pic.png"
                 alt="yjlee"
-                layout="fill"
+                fill
                 className="rounded-full object-cover"
               />
             </div>
