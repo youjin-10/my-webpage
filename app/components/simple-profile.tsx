@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { Mail, Linkedin, Github } from "lucide-react";
 
-export default function ProfileHeader() {
+export default function SimpleProfile() {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ export default function ProfileHeader() {
 
   return (
     <div className="flex justify-center">
-      <header className="fixed top-4 bg-[#0f0f10] text-gray-200 rounded-full  pl-3 pr-6">
+      <header className="fixed top-4 bg-[#0f0f10] text-gray-200 rounded-full pl-3 pr-6">
         <div
           className={`flex items-center h-16 transition-all duration-500 ease-in-out ${
             isScrolled ? "gap-3" : "gap-6"
