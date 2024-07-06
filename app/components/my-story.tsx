@@ -13,7 +13,9 @@ export default function MyStory() {
     setSelectedStory(selectedStory);
 
     if (modalRef.current) {
-      modalRef.current.showModal();
+      setTimeout(() => {
+        modalRef.current?.showModal();
+      }, 100);
     }
   };
 
