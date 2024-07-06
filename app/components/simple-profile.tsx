@@ -18,7 +18,7 @@ export default function SimpleProfile() {
 
   return (
     <div className="flex justify-center">
-      <header className="fixed top-4 bg-[#0f0f10] text-gray-200 rounded-full pl-3 pr-6">
+      <header className="z-50 fixed top-4 bg-[#0f0f10] text-gray-200 rounded-full pl-3 pr-6">
         <div
           className={`flex items-center h-16 transition-all duration-500 ease-in-out ${
             isScrolled ? "gap-3" : "gap-6"
@@ -37,7 +37,7 @@ export default function SimpleProfile() {
               className={`overflow-hidden transition-all duration-500 ease-in-out ${
                 isScrolled ? "w-0 opacity-0" : "w-36 opacity-100"
               }`}>
-              <h1 className="whitespace-nowrap">Youjin Lee</h1>
+              <h1 className="whitespace-nowrap">Youjin Lee 🇰🇷</h1>
               <p className="text-xs text-gray-400 whitespace-nowrap">
                 Frontend Developer
               </p>

@@ -133,6 +133,13 @@ export default function Home() {
         </ul>
       </section>
 
+      <section className="pb-32">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+        cupiditate similique magni voluptatibus totam nostrum veniam,
+        consectetur minus, saepe ratione doloremque. Porro doloribus quasi quis
+        tenetur ipsa aliquid repellat vitae!
+      </section>
+
       <section className="pl-4 absolute right-0 left-0 top-96">
         <div className="carousel space-x-4 p-4 h-64">
           {myStory.map((myStory) => {
