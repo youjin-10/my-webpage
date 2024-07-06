@@ -12,7 +12,7 @@ export default function Home() {
       <WorkExperience />
 
       {/* additional links */}
-      <section className="pb-32 text-gray-700">
+      <section className="pb-32 text-base-content">
         {/* <p>
           To know more stories about me, please visit{" "}
           <Link href="/about" className="link link-accent">

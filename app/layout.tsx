@@ -20,9 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-zinc-50`}>
         <SimpleProfile />
-        <main className="container mx-auto px-6 pt-40 bg-base-200 border-x border-neutral-content">
+        <main className="container mx-auto px-6 pt-40 bg-white border-x border-slate-100">
           {children}
         </main>
       </body>
