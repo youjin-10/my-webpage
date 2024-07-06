@@ -1,4 +1,4 @@
-![screenshot](screenshots/screenshot.png)
+![screenshot](https://github.com/youjin-10/my-webpage/blob/main/screenshots/screenshot.jpg?raw=true)
 
 # Youjin Lee - Personal website built using Next.js and daisyUI
 
