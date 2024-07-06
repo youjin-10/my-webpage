@@ -1,15 +1,22 @@
 import Image from "next/image";
 import { MY_STORY } from "@/app/constants";
 
+type MyStoryModalProps = {
+  selectedStory: (typeof MY_STORY)[0] | null;
+  mRef: React.Ref<HTMLDialogElement>;
+};
+
 export default function MyStoryModal({
   selectedStory,
-}: {
-  selectedStory: (typeof MY_STORY)[0] | null;
-}) {
+  mRef,
+}: MyStoryModalProps) {
   if (!selectedStory) return null;
 
   return (
-    <dialog id="picture_modal" className="modal modal-bottom sm:modal-middle">
+    <dialog
+      id="picture_modal"
+      ref={mRef}
+      className="modal modal-bottom sm:modal-middle">
       <div className="modal-box">
         <div className="w-full h-72 relative mb-8">
           <Image
