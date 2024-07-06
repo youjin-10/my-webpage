@@ -26,7 +26,7 @@ export default function SimpleProfile() {
           <div className="flex items-center space-x-3">
             <div className="relative w-10 h-10 flex-shrink-0">
               <Image
-                src="/my-pic.png"
+                src="/images/my-pic.png"
                 alt="yjlee"
                 fill
                 className="rounded-full object-cover"
@@ -58,13 +58,6 @@ export default function SimpleProfile() {
               className="transition-transform hover:scale-110">
               <Github size={20} />
             </a>
-            {/* <button
-              className="transition-transform hover:scale-110"
-              onClick={() =>
-                (window.location.href = "mailto:yjlee1026@yahoo.com")
-              }>
-              <Mail size={20} />
-            </button> */}
           </div>
         </div>
       </header>
