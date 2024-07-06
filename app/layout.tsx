@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import SimpleProfile from "./components/header/simple-profile";
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <main className="container mx-auto px-6 pt-40 bg-white border-x border-slate-100">
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   );
