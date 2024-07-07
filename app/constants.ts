@@ -9,7 +9,7 @@ export const MY_STORY = [
     src: "/images/first-app-ever.jpg",
     title: "My first application ever (2018)",
     content:
-      "After returning to Korea from China, I enrolled in a 4-month Java Web Developer course. During the course, I also had a chance to briefly learn how to create Anroid applications. This is a screenshot of my first app. <br /><br /> Although it was a simple app that allowed users to choose numbers for RGB color and copy the value, I was thrilled to build something from scratch. I learned how to solve problems by asking for advice or searching online.",
+      "After returning to Korea from China, I enrolled in a 5-month Java Web Developer course. During the course, I also had a chance to briefly learn how to create Anroid applications. This is a screenshot of my first app. <br /><br /> Although it was a simple app that allowed users to choose numbers for RGB color and copy the value, I was thrilled to build something from scratch. I learned how to solve problems by asking for advice or searching online.",
   },
   {
     src: "/images/old-code-java.jpg",
