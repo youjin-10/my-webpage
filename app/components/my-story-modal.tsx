@@ -21,9 +21,10 @@ export default function MyStoryModal({
         <div className="w-full h-72 relative mb-8">
           <Image
             src={selectedStory.src}
-            objectFit="contain"
             fill
             alt={selectedStory.title}
+            className="object-contain"
+            sizes="100%"
           />
         </div>
         <h3 className="font-bold text-lg mb-2">{selectedStory.title}</h3>
