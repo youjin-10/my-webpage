@@ -21,21 +21,18 @@ export default function MyStory() {
 
   return (
     <>
-      <section className="absolute right-0 left-0 top-1/2 md:top-96">
-        <div className="carousel space-x-4 p-4 h-64">
+      <section className="mb-36">
+        <div className="carousel space-x-4 py-4 h-64">
           {MY_STORY.map((myStory) => {
             return (
               <div
                 key={myStory.title}
-                className="carousel-item transition-transform duration-300 ease-in-out transform hover:-translate-y-4 cursor-pointer"
+                className="carousel-item basis-64 cursor-pointer"
                 onClick={() => handleClickCarouselItem(myStory)}>
-                <Image
-                  priority
+                <img
                   src={myStory.src}
-                  width={220}
-                  height={220}
                   alt={myStory.title}
-                  className="object-cover shadow-md rounded-box"
+                  className="object-cover w-full shadow-md rounded-box"
                 />
               </div>
             );

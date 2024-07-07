@@ -3,7 +3,7 @@ import { MY_EMAIL } from "@/app/constants";
 
 export default function AboutMeBrief() {
   return (
-    <section className="mb-96">
+    <section className="mb-12">
       <h1 className="text-3xl font-bold mb-4">Youjin Lee</h1>
       <p className="max-w-xl leading-7 mb-4">
         I am a dedicated frontend developer with a background in international
