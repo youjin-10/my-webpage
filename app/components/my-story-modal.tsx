@@ -17,7 +17,7 @@ export default function MyStoryModal({
       id="picture_modal"
       ref={mRef}
       className="modal modal-bottom sm:modal-middle">
-      <div className="modal-box">
+      <div className="modal-box max-h-[80%]">
         <div className="w-full h-72 relative mb-8">
           <Image
             src={selectedStory.src}

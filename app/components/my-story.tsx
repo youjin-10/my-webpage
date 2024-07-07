@@ -21,7 +21,7 @@ export default function MyStory() {
 
   return (
     <>
-      <section className="absolute right-0 left-0 top-96">
+      <section className="absolute right-0 left-0 top-1/2 md:top-96">
         <div className="carousel space-x-4 p-4 h-64">
           {MY_STORY.map((myStory) => {
             return (
