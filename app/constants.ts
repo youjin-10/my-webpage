@@ -45,7 +45,7 @@ export const MY_STORY = [
     src: "/images/playlist.jpg",
     title: "Hobbies 3. listening to music",
     content:
-      "Last but not least, I love listening to music while coding. This screenshot is from my playlist. I always appreciate song recommendations from any country!",
+      'Last but not least, I love listening to music while coding. This screenshot is from <a target="_blank" href="https://music.apple.com/kr/playlist/t/pl.u-oZylldgsGo52bmK">my playlist</a>. I always appreciate song recommendations from any country!',
   },
 ];
 

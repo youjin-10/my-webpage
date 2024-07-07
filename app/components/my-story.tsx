@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import Image from "next/image";
 import { MY_STORY } from "@/app/constants";
 import MyStoryModal from "@/app/components/my-story-modal";
 
@@ -22,6 +21,7 @@ export default function MyStory() {
   return (
     <>
       <section className="mb-36">
+        <p className="text-accent">👇 Click images to see my story</p>
         <div className="carousel space-x-4 py-4 h-64">
           {MY_STORY.map((myStory) => {
             return (
