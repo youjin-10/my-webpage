@@ -24,7 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## TO-DOs
 
-- [ ] GA
+- [x] GA -> vercel analytics
 - [ ] Toggling dark mode
 - [ ] Korean version
 - [ ] About page
