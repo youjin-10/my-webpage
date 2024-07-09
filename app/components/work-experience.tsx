@@ -2,7 +2,7 @@ import { Briefcase, MapPin } from "lucide-react";
 
 export default function WorkExperience() {
   return (
-    <section className="mb-12 max-w-xl">
+    <section className="mb-24 max-w-xl">
       <div className="flex items-center gap-2">
         <Briefcase size={20} />
         <h2 className="text-lg font-bold">Work Experience</h2>
