@@ -47,7 +47,7 @@ export default function WorkExperience() {
       <div className="mb-12 text-sm text-base-content border border-dashed p-3 rounded-xl">
         My resume is{" "}
         <a
-          href="https://drive.google.com/file/d/1F6y-yDnz7a6E5XS1UjGwdirjhuWqm9vK/view?usp=sharing"
+          href="https://drive.google.com/file/d/10e7KYOD2bSTcJ9uqPw_At-2V6JeKVVVx/view?usp=sharing"
           target="_blank"
           className="link link-accent">
           here
